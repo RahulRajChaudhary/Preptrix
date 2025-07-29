@@ -30,3 +30,5 @@ export const API_PATHS = {
     UPDATE_NOTE: (id) => `${BASE_URL}/api/questions/${id}/note`,
   },
 };
+
+export default API_PATHS;
