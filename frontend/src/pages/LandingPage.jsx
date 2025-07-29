@@ -27,15 +27,17 @@ const LandingPage = () => {
   };
 
   return (
-    <>
+    < div className="w-full min-h-screen pl-4 pr-4">
       <div className="w-full min-h-full bg-[#FFFCEF]">
         <div className="w-[500px] h-[500px] bg-amber-200/20 blur-[65px] absolute top-0 left-0" />
 
         <div className="container mx-auto px-4 pt-6 pb-[200px] relative z-10">
           {/* Header */}
           <header className="flex justify-between items-center mb-16">
-            <div className="text-xl text-black font-bold">
+            <div className="text-xl text-black font-bold flex items-center">
+              <img src="/logo.png" alt=""  className="h-8 w-auto bg-orange-400 rounded-lg "/>
               PrepTrix
+              <span className="text-amber-600">-AI</span>
             </div>
             {user ? (
               <ProfileInfoCard />
@@ -159,7 +161,7 @@ const LandingPage = () => {
           )}
         </div>
       </Modal>
-    </>
+    </div>
   );
 };
 

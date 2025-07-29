@@ -7,7 +7,6 @@ const DashboardLayout = ({ children }) => {
   return (
     <div>
       <Navbar />
-
       {user && <div>{children}</div>}
     </div>
   );
