@@ -1,5 +1,5 @@
 // apiPaths.js
-import { BASE_URL } from "./env";
+import { BASE_URL } from "../env.js";
 
 export const API_PATHS = {
   AUTH: {
